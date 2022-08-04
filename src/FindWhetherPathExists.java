@@ -11,7 +11,7 @@ public class FindWhetherPathExists {
             return true;
         }
 
-        // update the grid everytime during the search to 0, so that it cannot come back
+        //update the grid everytime during the search to 0, so that it cannot come back
         grid[sr][sc] = 0;
 
 
